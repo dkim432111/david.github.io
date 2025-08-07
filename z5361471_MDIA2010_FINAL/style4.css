@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Staatliches;
+    src:url(fonts/Staatliches-Regular.ttf);
+    font-family:'Times New Roman', Times, serif;
+    src:url(fonts/times.ttf);
+    font-family: 'Montserrat';
+    src:url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
+}
+
+
+body{
+/*Gradient sourced from htmlcolors.com*/
+    background-image: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(104, 166, 242, 1) 99%);
+    background-size: cover;
+    font-family: Montserrat;
+    color:white;
+    padding-right:35%;
+    padding-left: 35%;
+}
+
+.center-image{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.articletitle{
+    font-family: Montserrat;
+}
