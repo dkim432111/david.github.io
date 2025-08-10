@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Staatliches;
+    src:url(fonts/Staatliches-Regular.ttf);
+    font-family:'Times New Roman', Times, serif;
+    src:url(fonts/times.ttf);
+    font-family: 'Montserrat';
+    src:url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.logo{
+    position: absolute;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+/*positions it behind*/
+  z-index: -1;
+}
+
+.overlay.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1; /* Make sure it's above the video */
+    font-size: 1.5rem;
+}
+
+.container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1; /* Make sure it's above the video */
+    font-size: 2rem;
+}
+
+/*Copilot slight help with button visual changes*/
+button {
+    background-color: rgb(16, 85, 131);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(11, 61, 94);
+}

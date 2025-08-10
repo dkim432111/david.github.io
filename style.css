@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Staatliches;
+    src:url(fonts/Staatliches-Regular.ttf);
+    font-family:'Times New Roman', Times, serif;
+    src:url(fonts/times.ttf);
+    font-family: 'Montserrat';
+    src:url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
+}
+
+
+body{
+    background-image: url(images/IMGBG.png);
+    background-size: cover;
+    font-family: Montserrat;
+}
+
+header{
+    float:top;
+}
+
+.center-image{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+/*Design Web "News Ticker in HTML | Breaking News Scrolling Effect in HTML"*/
+.ticker{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -15%;
+}
+
+.news{
+    width: 100%;
+    padding: 0 2%;
+}
+
+.container1{
+    margin: 0;
+    padding: 0;
+}
+
+/*Start of WebDevExplorers "How to make Image Slider with HTML and CSS" (Youtube Video)- I altered it to make it static, as I just wanted the initial display so redundant code was removed*/
+
+.container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgContainer{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.slide_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px -200 30px;
+}
+
+/*Controls mean img size*/
+.imgContainer img{
+    position: relative;
+    height: 370px;
+    width: 240px;
+    transition: 0.5s;
+    border-radius: 20px;
+/*Shadow Box from W3 Schools*/
+    width: 250px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.button{
+    position: absolute;
+    width: 240px;
+    height: 370px;
+    transition: 0.7s;
+    border-radius: 20px;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*End of WebDevExplorers "How to make Image Slider with HTML and CSS" (Youtube Video)*/
+
+footer{
+    display: block;
+    clear: both;
+    width: 100%;
+    margin-top: -1.5%;
+    margin-bottom: 0;
+    font-family: Montserrat;
+    font-size:medium;
+    text-align: center;
+}
+
+.navbar2{
+    font-family: Montserrat;
+    padding-right: 20%;
+    padding-left: 30%;
+    text-align: center;
+}
+
+.navdiv2{
+    display: flex; align-items: center; justify-content: space-between;
+    li{
+        list-style: none; display: inline-block;
+    }
+    li a{
+        color: rgb(255, 255, 255); font-size: 14px; font-weight: bold; margin-right: 25px; 
+    }
+}
+
+
+

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Staatliches;
+    src:url(fonts/Staatliches-Regular.ttf);
+    font-family:'Times New Roman', Times, serif;
+    src:url(fonts/times.ttf);
+    font-family: 'Montserrat';
+    src:url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
+}
+
+body{
+    background-image: url(images/RedThreadGuide.pdf);
+    background-size: cover;
+}
